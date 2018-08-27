@@ -9,4 +9,5 @@ for(var i = 0; i < lis.length; i++){
     //what happens when mouseoover event is triggered
     this.style.color = "green";
   })
+  lis[i].addEventListener
 }
