@@ -1,3 +1,8 @@
 .hovered {
   text-transform: uppercase;
 }
+
+.capitalize {
+  color: rgb(116, 10, 51);
+  font-size: 2em;
+}
