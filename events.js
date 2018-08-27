@@ -7,11 +7,11 @@ for(var i = 0; i < lis.length; i++){
   //add mouseover event
   lis[i].addEventListener("mouseover", function(){
     //what happens when mouseoover event is triggered
-    this.style.color = "green";
+    this.classList.add("hovered");
   })
   //add mouseout event
   lis[i].addEventListener("mouseout", function(){
     //what happens when the mouseout event is triggered
-    this.style.color = "black";
+
   });
 }
