@@ -14,4 +14,6 @@ for(var i = 0; i < lis.length; i++){
     //what happens when the mouseout event is triggered
     this.classList.remove("hovered");
   });
+  //add click event
+  
 }
