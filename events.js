@@ -15,5 +15,7 @@ for(var i = 0; i < lis.length; i++){
     this.classList.remove("hovered");
   });
   //add click event
-  
+  lis[i].addEventListener("click", function(){
+    
+  })
 }
