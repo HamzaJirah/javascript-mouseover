@@ -16,6 +16,6 @@ for(var i = 0; i < lis.length; i++){
   });
   //add click event
   lis[i].addEventListener("click", function(){
-    
+    this.classList.toggle("capitalize");
   })
 }
