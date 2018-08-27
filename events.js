@@ -11,6 +11,6 @@ for(var i = 0; i < lis.length; i++){
   })
   //add mouseout event
   lis[i].addEventListener("mouseout", function(){
-
+    this.style.color = "black";
   })
 }
