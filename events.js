@@ -11,6 +11,7 @@ for(var i = 0; i < lis.length; i++){
   })
   //add mouseout event
   lis[i].addEventListener("mouseout", function(){
+    //what happens when the mouseout event is triggered
     this.style.color = "black";
   })
 }
